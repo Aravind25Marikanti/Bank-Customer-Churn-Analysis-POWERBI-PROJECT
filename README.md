@@ -20,9 +20,21 @@ The analysis focuses on:
 
 ---
 
+## 🛠️ Tools & Technologies
+
+* **Microsoft Power BI**
+* **Power Query**
+* **DAX**
+* **Star Schema Data Modeling**
+* **Data Visualization**
+* **Business Analysis**
+
+
+---
+
 ## 📂 Dataset
 
-The dataset contains customer demographics, banking information, activity status, credit-card ownership, geography, and exit/retention information.
+The dataset contains customer demographics, banking information, activity status, credit-card ownership, geographical information, and customer exit/retention information.
 
 ### Main Tables
 
@@ -55,8 +67,8 @@ The following data-cleaning steps were performed:
 * Removed duplicate records
 * Handled missing/null values
 * Standardized column names
-* Validated date and numeric fields
-* Ensured consistency of IDs
+* Validated date formats and numeric columns
+* Ensured consistency of customer IDs
 
 ---
 
@@ -64,9 +76,9 @@ The following data-cleaning steps were performed:
 
 ### Calculated Columns
 
-* **Customer Age Group** – Young, Middle Age, Senior
-* **Tenure Category** – New, Loyal
-* **Balance Status** – Zero Balance, Has Balance
+* **Customer Age Group** – Categorized customers as Young, Middle Age, or Senior
+* **Tenure Category** – Categorized customers as New or Loyal
+* **Balance Status** – Classified customers as Zero Balance or Has Balance
 
 ### Measures
 
@@ -75,6 +87,10 @@ The following data-cleaning steps were performed:
 * **Retention Rate (%)**
 * **Average Balance**
 * **Average Salary**
+* **Active Member (%)**
+* **Exit Rate (%)**
+* **Active Member Count**
+* **Inactive Member Count**
 
 ---
 
@@ -121,6 +137,18 @@ Analyzes customer products, credit-card ownership, geography, and retention.
 
 ---
 
+## 🎯 Business Recommendations
+
+* Identify and prioritize **high-churn customer segments**.
+* Develop targeted retention campaigns for **at-risk customers**.
+* Monitor regions with higher exit rates.
+* Increase engagement among inactive customers.
+* Analyze product usage to improve customer retention.
+* Develop personalized strategies based on **age and tenure**.
+* Monitor retention KPIs regularly using Power BI.
+
+---
+
 ## 💡 Key Insights
 
 The dashboards help identify:
@@ -138,63 +166,8 @@ The dashboards help identify:
 
 ---
 
-## 🎯 Business Recommendations
-
-* Identify and prioritize **high-churn customer segments**.
-* Develop targeted retention campaigns for **at-risk customers**.
-* Monitor regions with higher exit rates.
-* Increase engagement among inactive customers.
-* Analyze product usage to improve customer retention.
-* Develop personalized strategies based on **age and tenure**.
-* Monitor retention KPIs regularly using Power BI.
-
----
-
-## 🛠️ Tools & Technologies
-
-* **Microsoft Power BI**
-* **Power Query**
-* **DAX**
-* **Star Schema Data Modeling**
-* **Data Visualization**
-* **Business Analysis**
-
----
-
-## 📁 Project Structure
-
-```text
-Bank-Customer-Churn-Analysis/
-│
-├── Bank_Customer_Churn_Analysis_Project.pbix
-├── README.md
-│
-└── Dashboard Screenshots/
-    ├── Customer Overview.png
-    ├── Churn Analysis.png
-    └── Product & Credit Analysis.png
-```
-
----
-
-## 🚀 How to Use
-
-1. Download or clone this repository.
-2. Open `Bank_Customer_Churn_Analysis_Project.pbix` using **Power BI Desktop**.
-3. Navigate through the three dashboard pages.
-4. Use the interactive filters and visuals to explore customer churn and retention.
-
----
-
 ## 📌 Project Outcome
 
-An interactive **Power BI customer churn analytics dashboard** was developed to help the bank understand customer behavior, identify churn patterns, and support **data-driven customer retention strategies**.
+An interactive **Power BI customer churn analytics solution** was developed to provide a consolidated view of customer behavior, churn patterns, and retention metrics.
 
----
-
-## 👨‍💻 Author
-
-**Aravind**
-*Data Analyst*
-
-**Skills:** Power BI | Power Query | DAX | Data Modeling | Data Visualization | Business Analysis
+The dashboards enable data-driven analysis across **customer demographics, geography, activity, tenure, balance, products, and credit-card ownership**, helping support more targeted **customer retention strategies**.
